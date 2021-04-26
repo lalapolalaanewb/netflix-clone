@@ -1,44 +1,125 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Netflix Clone
 
-## Available Scripts
+Netflix Clone.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Software you need to install:-
 
-### `npm test`
+- Node.js at [Node.org](https://nodejs.org/en/download/)
+- Visual Studio Code at [Visual Studio Code](https://code.visualstudio.com/)
+- or you can choose any Code Editor to your liking
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+Go to Node.org link above and choose your machine type (Please choose the **LTS download version** instead of the Current version):-
+- Window, go for Windows Installer
+- MacOS, go for MacOS Installer
+```
 
-### `npm run build`
+### Installing
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please follow the step below to get the system running
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. After download or git repo the _Project file_. Place your _Project folder_ anywhere in your system (doesn't matter where actually)
+2. Open your _Code Editor_ (Visual Studio Code or any other code editor)
+3. Go to your _Terminal_ in Visual Studio Code or open _CMD - Command Prompt_, manuver to where your _Project folder_ located and do the following installation:- (make sure you already inside your Project folder. Eg: C:\parentFolder\ProjectFolder)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+in your Terminal or CMD, it's gonna look like this:-
+C:\parentFolder\ProjectFolder\>
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Install all dependencies required (for `server` & `client` folder as stated in `package.json`)
+  - `server` folder
+    - devDependencies:-
+      - concurrently
+      - nodemon
+    - dependencies
+      - @hapi/joi
+      - bcryptjs
+      - colors
+      - connect-redis
+      - dotenv
+      - express
+      - express-session
+      - jsonwebtoken
+      - mongoose
+      - morgan
+      - multer
+      - nodemailer
+      - redis
+  - `client` folder
+    - @material-ui/core
+    - @material-ui/icons
+    - @material-ui/lab
+    - axios
+    - classnames
+    - disqus-react
+    - material-table
+    - react-icons
+    - react-markdown
+    - react-router-dom
+    - react-share
+    - react-syntax-highlighter
+    - universal-cookie
+    - uuid
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+// for server dependencies installation
+C:\parentFolder\ProjectFolder\> npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+// for client dependencies installation
+C:\parentFolder\ProjectFolder\client> npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Once installation finishes with no errors. Then start the project (in development build - **this will run both the server & client side of the project**):-
 
-## Learn More
+```
+C:\parentFolder\ProjectFolder\> npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Important Notes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Below are some of the CRUD images available in the project (admin access only):-
+
+![dashboard_light](https://lalapolalaanewb.com/images/readme_adminDemo_1.PNG#thumbnail_fw)
+![posts_light](https://lalapolalaanewb.com/images/readme_adminDemo_2.PNG#thumbnail_fw)
+![medias_light](https://lalapolalaanewb.com/images/readme_adminDemo_3.PNG#thumbnail_fw)
+![abouts_light](https://lalapolalaanewb.com/images/readme_adminDemo_4.PNG#thumbnail_fw)
+![resumes_light](https://lalapolalaanewb.com/images/readme_adminDemo_5.PNG#thumbnail_fw)
+![posts_dark](https://lalapolalaanewb.com/images/readme_adminDemo_6.PNG#thumbnail_fw)
+
+## Deployment
+
+No additional support on how to deploy on live system for this project.
+
+## Built With
+
+- React
+- Express
+- Node
+- MongoDB
+
+## Contributing
+
+No contribution allowed as of this moment of time.
+
+## Authors
+
+- **Lalapolalaa Newb**
+
+## Acknowledgments
+
+- [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w)
+- [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
+- [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
+- [DevEd](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
+- [Web Dev Simplifies](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
+- [DesignCourse](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow)
+- [Coding Addict](https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA)
+- [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
