@@ -10,15 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Software you need to install:-
 
-- Node.js at [Node.org](https://nodejs.org/en/download/)
 - Visual Studio Code at [Visual Studio Code](https://code.visualstudio.com/)
 - or you can choose any Code Editor to your liking
-
-```
-Go to Node.org link above and choose your machine type (Please choose the **LTS download version** instead of the Current version):-
-- Window, go for Windows Installer
-- MacOS, go for MacOS Installer
-```
 
 ### Installing
 
@@ -34,53 +27,15 @@ C:\parentFolder\ProjectFolder\>
 
 ```
 
-- Install all dependencies required (for `server` & `client` folder as stated in `package.json`)
-  - `server` folder
-    - devDependencies:-
-      - concurrently
-      - nodemon
-    - dependencies
-      - @hapi/joi
-      - bcryptjs
-      - colors
-      - connect-redis
-      - dotenv
-      - express
-      - express-session
-      - jsonwebtoken
-      - mongoose
-      - morgan
-      - multer
-      - nodemailer
-      - redis
-  - `client` folder
-    - @material-ui/core
-    - @material-ui/icons
-    - @material-ui/lab
-    - axios
-    - classnames
-    - disqus-react
-    - material-table
-    - react-icons
-    - react-markdown
-    - react-router-dom
-    - react-share
-    - react-syntax-highlighter
-    - universal-cookie
-    - uuid
-
 ```
 // for server dependencies installation
 C:\parentFolder\ProjectFolder\> npm install
-
-// for client dependencies installation
-C:\parentFolder\ProjectFolder\client> npm install
 ```
 
 - Once installation finishes with no errors. Then start the project (in development build - **this will run both the server & client side of the project**):-
 
 ```
-C:\parentFolder\ProjectFolder\> npm run dev
+C:\parentFolder\ProjectFolder\> npm start
 ```
 
 ## Important Notes
@@ -101,9 +56,9 @@ No additional support on how to deploy on live system for this project.
 ## Built With
 
 - React
-- Express
-- Node
-- MongoDB
+- Redux
+- Firebase
+- Stripe
 
 ## Contributing
 
