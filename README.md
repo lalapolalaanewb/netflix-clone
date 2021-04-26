@@ -8,10 +8,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Software you need to install:-
+A. Software you need to install:-
 
 - Visual Studio Code at [Visual Studio Code](https://code.visualstudio.com/)
 - or you can choose any Code Editor to your liking
+
+B. Site you need to register:-
+
+1. Firebase
+
+- create new project
+
+2. TMDB
+
+- go to 'Settings'
+- manuever to 'API' tab
+- create new API
 
 ### Installing
 
