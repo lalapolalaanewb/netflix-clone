@@ -38,17 +38,6 @@ C:\parentFolder\ProjectFolder\> npm install
 C:\parentFolder\ProjectFolder\> npm start
 ```
 
-## Important Notes
-
-Below are some of the CRUD images available in the project (admin access only):-
-
-![dashboard_light](https://lalapolalaanewb.com/images/readme_adminDemo_1.PNG#thumbnail_fw)
-![posts_light](https://lalapolalaanewb.com/images/readme_adminDemo_2.PNG#thumbnail_fw)
-![medias_light](https://lalapolalaanewb.com/images/readme_adminDemo_3.PNG#thumbnail_fw)
-![abouts_light](https://lalapolalaanewb.com/images/readme_adminDemo_4.PNG#thumbnail_fw)
-![resumes_light](https://lalapolalaanewb.com/images/readme_adminDemo_5.PNG#thumbnail_fw)
-![posts_dark](https://lalapolalaanewb.com/images/readme_adminDemo_6.PNG#thumbnail_fw)
-
 ## Deployment
 
 No additional support on how to deploy on live system for this project.
