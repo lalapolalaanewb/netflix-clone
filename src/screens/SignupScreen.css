@@ -11,6 +11,11 @@
   flex-direction: column;
 }
 
+.signupScreen > form > h1 {
+  text-align: left;
+  margin-bottom: 26px;
+}
+
 .signupScreen > form > input {
   outline-width: 0;
   height: 40px;
@@ -30,4 +35,18 @@
   font-weight: 600;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.signupScreen > form > h4 {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.signupScreen__gray {
+  color: gray;
+}
+
+.signupScreen__link {
+  cursor: pointer;
+  text-decoration: underline;
 }
