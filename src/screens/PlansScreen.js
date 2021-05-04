@@ -4,11 +4,12 @@ import { selectUser } from '../features/userSlice'
 import db from '../firebase'
 import { loadStripe } from '@stripe/stripe-js'
 import './PlansScreen.css'
+import { selectSub} from '../features/subSlice'
 
 function PlansScreen() {
   const user = useSelector(selectUser)
+  const subscription = useSelector(selectSub)
   const [products, setProducts] = useState([])
-  const [subscription, setSubscription] = useState(null)
 
   useEffect(() => {
     db.collection('products')
@@ -62,22 +63,6 @@ function PlansScreen() {
       }
     })
   }
-
-  useEffect(() => {
-    db.collection('customers')
-    .doc(user.uid)
-    .collection('subscriptions')
-    .get()
-    .then(querySnapshot => {
-      querySnapshot.forEach(async subscription => {
-        setSubscription({
-          role: subscription.data().role,
-          current_period_end: subscription.data().current_period_end.seconds,
-          current_period_start: subscription.data().current_period_start
-        })
-      })
-    })
-  }, [user.uid]); console.log(subscription)
 
   return (
     <div className="plansScreen">

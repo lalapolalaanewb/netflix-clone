@@ -71,6 +71,7 @@ No contribution allowed as of this moment of time.
 
 ## Acknowledgments
 
+- [Sonny Sangha](https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA)
 - [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w)
 - [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
 - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
