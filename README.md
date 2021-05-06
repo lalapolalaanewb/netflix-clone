@@ -1,6 +1,6 @@
 # Netflix Clone
 
-Netflix Clone.
+Netflix Clone. [Live View - Firebase](https://netflix-clone-4e8e4.web.app/)
 
 ## Getting Started
 
